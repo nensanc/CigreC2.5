@@ -1,0 +1,128 @@
+<html lang="en-US">
+    <head>
+        <title> OP monitoring system UdeA </title>
+        <title> OP monitoring system UdeA </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+    </head>
+    <body>
+      <div style = "width:100%">
+            <div class="head" style = "background-color:#eee; width:100%">
+                <h2 style="text-align:center;"> Outdoor Performance Monitoring System for Solar Devices </br>
+                (cells, modules and panels)
+                </h2>
+                <h2 style="text-align:center;"> Research Groups (UdeA): GIMEL - CIDEMAT  
+                </br> Colaboration with <a href="https://www.uji.es/serveis/ocit/base/grupsinvestigacio/detall?codi=297"> GAS - Grup de Semiconductors Avançats (UJI) </a>
+                </h2>
+                <h4 style="text-align:center;"> By: <a href="mailto: esteban.velilla@udea.edu.co"> Esteban Velilla Hernández </a>  &  <a href="mailto: bernardo.cano@udea.edu.co">  Juan Bernardo Cano </a> </h4> 
+            </div>
+           
+            <div class="Standard" style = "background-color:#b5dcb3;  width:100%">
+                <h2 style="text-align:center;"> 
+                <p>Outdoor Performance According to <a href="https://webstore.iec.ch/publication/6035"> IEC 61853-1 </a> Allowed us to: </h2>
+                <h3 style="text-align:center;">Track the NOCT to Validate <a href="https://www.sciencedirect.com/science/article/abs/pii/S0038092X19310497"> Datasheet Values</a>, Obtain the Degradation Shape <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/0471667196.ess7148"> (Convex, linear and concave) </a> <a href="\solarudea\images\T80.png"> and Define the T80 </a> 
+                </br>
+                 All Data Proccesses and Analysis are Performed with  <a href="https://www.python.org/"> Python </a>  (   <a href="https://www.anaconda.com">  Anaconda </a>  - <a href="https://pandas.pydata.org">  Pandas </a> - <a href="https://seaborn.pydata.org/"> Seaborn )</a> </p>
+                </p> </h3>
+            </div>
+            
+            <div class="menu" style = "width:100%">
+        
+                <div style = "background-color:#b5dcb3; width:20%; float:left;" > 
+                    <center> <h3>Monitoring System </h3> </center> 
+                
+                    <div style = "background-color:white"> 
+                        <h5> <center>
+                             <a href="https://www.sciencedirect.com/science/article/abs/pii/S0038092X19310497"> System Descriptions </a> </br>
+                             <a href="https://revistas.elpoli.edu.co/index.php/pol/article/view/618">Solar Tracking Device </a> </br>
+                             <a href="\solarudea\images\OP_flowchart.png" >Outdoor Perfomance Flowchart </a> </br>
+                             <a href="\solarudea\Files\Brochure_SS.pdf" >Brochure Solar Station </a> 
+
+                        </center> </h5>
+                    </div>
+                </div>
+                    
+                    
+                <div style = "background-color:#b5dcb3;  width:20%; float:left;">
+                    <center> <h3> <b> Related Works  </b> </h3> </center> 
+                
+                    <div style = "background-color:white"> 
+                        <center> <h5> 
+                        <a href="https://www.sciencedirect.com/science/article/pii/S0927024818305014">Perovskite Outdoor Perfomance </a> </br>
+                        <a href="https://www.sciencedirect.com/science/article/pii/S0927024819301217">Perovskite Devices </a> </br>
+                        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0038092X14002400">Outdoor Perfomance Using AI</a> </br>
+                        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0038092X17300579"> Commercial Technologies </a>
+                        </h5> </center>
+                    </div>
+                </div>
+                
+                
+                <div style = "background-color:#b5dcb3; width:20%; float:left;">
+                    <center> <h3>  Weather Station  </h3> </center> 
+                
+                    <div style = "background-color:white"> 
+                        <center> <h5> 
+                         <a href="\solarudea\images\TAmb.png"> Temperature  </a>  &  <a href="\solarudea\images\Irradiance.png"> Irradiance </a> <a href="\solarudea\images\HSP.png"> (PSH) </a> </br>
+                        <a href="\solarudea\Databases\SC_files\SC_2020.xlsx"> Sensor Data 2020 </a> </br>
+                        <a href="\solarudea\Databases\SC_files\SC_2019.xlsx"> Sensor Data 2019 </a> </br>
+                        <a href="\solarudea\Databases\SC_files\SC_2018.xlsx"> Sensor Data 2018 </a> 
+                        
+                        </h5> </center> 
+                    </div>
+               </div>
+               
+               <div style = "background-color:#b5dcb3; width:20%; float:left;">
+                    <center> <h3>  Solar Tracers <a href="\solarudea\images\I_V.png">(I-V) </a> </h3> </center>
+                    <div style = "background-color:white"> 
+                        <center> <h5> 
+                        Variables:<a href="\solarudea\images\Pmax_filtered.png"> Pmax </a> - <a href="\solarudea\images\Voc.png"> Voc </a> - <a href="\solarudea\images\Isc_filtered.png"> Isc </a> - <a href="\solarudea\images\FF.png"> FF </a> </br>
+                        PSC MM:<a href="\solarudea\Databases\I-V_files\PSM_convex_I-V_data.xls"> convex </a> - <a href="\solarudea\Databases\I-V_files\PSM_concave_I-V_data.xls"> linear </a> - <a href="\solarudea\Databases\I-V_files\PSM_concave_I-V_data.xls"> concave </a>  </br>
+                        Silicon:<a href="\solarudea\Databases\I-V_files\mSi_I-V_data.xls"> m-Si P </a> - <a href="\solarudea\Databases\I-V_files\aSi_I-V_data.xls"> a-Si MM </a> </br>
+                        CIGS:<a href="\solarudea\Databases\I-V_files\CIGS_mod_I-V_data.xls"> Module </a> -
+                        <a href="\solarudea\Databases\I-V_files\CIGS_MM_I-V_data.xls"> Minimodule </a>                         
+                        </h5> </center> 
+                    </div>
+               </div>
+               
+               
+               <div style = "background-color:#b5dcb3; width:20%; float:left;">
+                    <center> <h3>  Evaluated Devices <a href="\solarudea\images\Devices.JPG">(pic) </a>  </h3> </center> 
+                
+                    <div style = "background-color:white"> 
+                        <center> <h5> 
+                        IEC 61853-1: <a href="mailto: esteban.velilla@udea.edu.co"> STC - NOCT - LTC - LIC </a> </br>
+                        PSC MM:<a href="\solarudea\Databases\IEC61853\PSC_convex_Power_rating_Results.xls"> convex </a> - <a href="\solarudea\Databases\IEC61853\PSC_linear_Power_rating_Results.xls"> linear </a> - <a href="\solarudea\Databases\IEC61853\PSC_concave_Power_rating_Results.xls"> concave </a>  </br>
+                        Silicon:<a href="\solarudea\Databases\IEC61853\Si_m_Power_rating_Results.xls"> mono </a> - <a href="\solarudea\Databases\IEC61853\HIT_Power_rating_Results.xls""> HIT </a> </br>
+                        CIGS:<a href="\solarudea\Databases\IEC61853\CIGS_m_Power_rating_Results.xls"> CIGS module </a>
+
+                        </h5> </center> 
+                    </div>
+               </div>
+            </div>
+            
+   
+            
+            
+            <div class="Figures" style = "background-color:#eee;  width:100%">
+
+                    <figure> <img src="\solarudea\images\Fig_main.png" alt="Main Figure" width="100%" height="80%">  </figure>
+
+            </div>
+            
+            
+            <div class="end" style = "background-color:#b5dcb3; width:100%">
+                <h4 style="text-align:center;"> Universidad de Antioquia Calle 62 N° 52-59, Torre 2, lab 228, 330-331 Medellín - Colombia Tel:  (+574) 2196445- 2196617, (+574) 2114658
+                </h4>
+            </div>
+    </div>
+
+
+    </body> 
+
+
+
+</html>
